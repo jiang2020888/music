@@ -1,0 +1,64 @@
+.time {
+    position: relative;
+    color: black;
+    bottom: -37px;
+    font-size: .75rem;
+}
+
+.jndutc-time {
+    position: relative;
+    bottom: 20px;
+    left: 45px;
+}
+
+.outer {
+    position: absolute;
+    width: 190px;
+    height: 2px;
+    margin-bottom: 20px;
+    background: gray;
+}
+
+.inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: red;
+}
+
+.dot {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: orange;
+    cursor: pointer;
+}
+
+#id-currentTime {
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+}
+
+#id-duration {
+    position: absolute;
+    bottom: 50px;
+    right: 12px;
+}
+
+.active {
+    display: block !important;
+}
+
+.show {
+    display: block !important;
+}
+
+.song-list {
+    display: none;
+}

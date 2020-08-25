@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>SweetPlayer</title>
+        <link rel="stylesheet" href="sweet.css">
+        <link rel="stylesheet" href="css/1.css">
+        <link rel="stylesheet" href="css/2.css">
+        <link rel="stylesheet" href="css/3.css">
+        <link rel="stylesheet" href="css/4.css">
+        <link rel="stylesheet" href="css/5.css">
+        <link rel="stylesheet" href="css/6.css">
+        <link rel="stylesheet" href="css/7.css">
+        <link rel="stylesheet" href="css/8.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    <audio id="fa-play" src="audio/1.mp3"></audio>
+        <div class="player__container">
+            <div class="player__body">
+                <div class="body__cover">
+                    <ul class="list list--cover">
+                        <li>
+                            <a class="list__link" href=""><i class="fa fa-navicon"></i></a>
+                        </li>
+                        <li>
+                            <a class="list__link" href=""></a>
+                        </li>
+                        <li>
+                            <a class="list__link" href=""><i class="fa fa-search"></i></a>
+                        </li>
+                    </ul>
+                    <img src="picture/0.png" class="audio-picture" alt="cover" />
+                </div>
+                <div class="jndutc-time">
+                    <div class="outer">
+                        <div class="inner">
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="time">
+                    <span id="id-currentTime"></span>
+                    <span id="id-duration"></span>
+                </div>
+                <div class="body__info">
+                    <div class="info__song" data-song="3" data-active="0">
+                        <div id="id-songs-0" class="song-list active">The Moutain</div>
+                        <div id="id-songs-1" class="song-list">Pretty Strangers</div>
+                        <div id="id-songs-2" class="song-list">Shape Of You</div>
+                    </div>
+                    <div class="info__artist" data-artists="3" data-show="0">
+                        <div id="id-artist-0" class="song-list show">Ryan Lofty</div>
+                        <div id="id-artist-1" class="song-list">Prismo</div>
+                        <div id="id-artist-2" class="song-list">Ed Sheeran</div>
+                    </div>
+                </div>
+                <div class="change-list" data-songs="3" data-active="0">
+                    <ul class="songs-list">
+                        <li id="id-song-0" class="list song-list-active" data-path="audio/1.mp3">1.mp3</li>
+                        <li id="id-song-1" class="list" data-path="audio/2.mp3">2.mp3</li>
+                        <li id="id-song-2" class="list" data-path="audio/3.mp3">3.mp3</li>
+                    </ul>
+                <div class="body__buttons">
+                    <ul class="list list--buttons">
+                        <li><a href="#" class="list__link"><i class="fa fa-step-backward"></i></a></li>
+
+                        <li><a href="#" class="list__link"><i class="fa fa-play"></i></a></li>
+
+                        <li><a href="#" class="list__link"><i class="fa fa-step-forward"></i></a></li>
+                    </ul>
+                    </div>
+                </div>
+            <div class="player__footer">
+                <ul class="list list--footer">
+                    <li><a href="#" class="list__link"><i class="fa fa-heart-o"></i></a></li>
+
+                    <li><a href="#" class="list__link"><i class="fa fa-random"></i></a></li>
+
+                    <li><a href="#" class="list__link"><i class="fa fa-undo"></i></a></li>
+
+                    <li><a href="#" class="list__link"><i class="fa fa-ellipsis-h"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="jiang.js"></script>
+    <script src="player.js"></script>
+    </body>
+</html>
